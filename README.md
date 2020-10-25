@@ -39,16 +39,19 @@
 
 By studying 35-year climate data from 70 agricultural locations of Uzbekistan
 we were able to calculate reference crop evapotranspiration based on 
-[Penman-Monteith Equation][2] as detailed in 
+[Penman-Monteith Equation][3] as detailed in 
 [FAO's Irrigation and Drainage Paper #56][1]
 
-You can find the final report in **report/** folder. As of this writing the report
-is available in Uzbek. There is a plan to translate the report into other
-languages. Contributors are welcome!
+You can find the final report in [report/ folder][report]. As of this 
+writing the report is available in Uzbek. There is a plan to translate the report
+into other languages. Contributors are welcome!
 
-If Uzbek language is not accessible for you, **eto.xlsx** file located inside
-**data/** folder is the actual data file used to generate the above report.
+If Uzbek language is not accessible for you,[ eto.xlsx][] file located inside
+[ data/ folder ][data] is the actual data file used to generate the above report.
 Column labels are left in English.
 
 [1]: http://www.fao.org/3/x0490e/x0490e00.htm
 [3]: http://www.fao.org/3/x0490e/x0490e06.htm
+[report]: https://github.com/sherzodr/agriclimuz/tree/master/report
+[data]: https://github.com/sherzodr/agriclimuz/tree/master/data
+[eto.xlsx]: https://github.com/sherzodr/agriclimuz/raw/master/data/eto.xlsx
